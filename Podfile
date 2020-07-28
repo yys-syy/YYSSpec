@@ -6,6 +6,5 @@ target 'YYSSpec' do
   # use_frameworks!
 
   # Pods for YYSSpec
-  pod 'YYSNetworking', :path => 'Lib/YYSNetworking'
-
+  pod 'YYSNetworking', '0.1.0'
 end
