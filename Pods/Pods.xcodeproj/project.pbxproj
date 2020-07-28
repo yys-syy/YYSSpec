@@ -3,14 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A80EEC3BB20453FD75EB77E714E0EB9 /* YYSTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F304CAAD1FF56BF6F38FA926126F84D /* YYSTools.m */; };
+		530029A024D069B6005FFC1F /* YYSTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 5300299E24D069B6005FFC1F /* YYSTools.h */; };
+		530029A124D069B6005FFC1F /* YYSTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 5300299F24D069B6005FFC1F /* YYSTools.m */; };
 		880AF18BA833A5879F428CAE4727E966 /* YYSNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE22F08E419E6297E94B0020EC665AE0 /* YYSNetworking-dummy.m */; };
 		B0B8B0973EC94523EB87508DED4114EC /* Pods-YYSSpec-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E8634AD37DE9F6DD1CD57D9E486005 /* Pods-YYSSpec-dummy.m */; };
-		CDDF0B10237995C470C7F6DD8708CAF1 /* YYSTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8B16C33C8B7767B5D68CCA8EB72469 /* YYSTools.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,21 +25,21 @@
 
 /* Begin PBXFileReference section */
 		34A35B0D9A9E7136D7CD44335CC3EFE7 /* YYSNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYSNetworking-prefix.pch"; sourceTree = "<group>"; };
-		5A4DBBE89A54E1EC5C0FBF4949624109 /* YYSNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YYSNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5D8B16C33C8B7767B5D68CCA8EB72469 /* YYSTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYSTools.h; path = YYSNetworking/Classes/YYSTools.h; sourceTree = "<group>"; };
-		6318DAE13F3688032352ED546B2722DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5300299E24D069B6005FFC1F /* YYSTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSTools.h; sourceTree = "<group>"; };
+		5300299F24D069B6005FFC1F /* YYSTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSTools.m; sourceTree = "<group>"; };
+		5A4DBBE89A54E1EC5C0FBF4949624109 /* YYSNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YYSNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6318DAE13F3688032352ED546B2722DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7EB6A46EECDC537BE091DE2AC0437D5A /* YYSNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYSNetworking.xcconfig; sourceTree = "<group>"; };
-		7F304CAAD1FF56BF6F38FA926126F84D /* YYSTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYSTools.m; path = YYSNetworking/Classes/YYSTools.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4DA48BAA6076707F01A2D8777DFBECE /* Pods-YYSSpec.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYSSpec.release.xcconfig"; sourceTree = "<group>"; };
 		A91AAFCA1FCA887457B9D93916296A32 /* Pods-YYSSpec.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYSSpec.debug.xcconfig"; sourceTree = "<group>"; };
 		B8E8634AD37DE9F6DD1CD57D9E486005 /* Pods-YYSSpec-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YYSSpec-dummy.m"; sourceTree = "<group>"; };
-		BDBC01AF5143612A4FF8B309606D7DA7 /* libPods-YYSSpec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YYSSpec.a"; path = "libPods-YYSSpec.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBC01AF5143612A4FF8B309606D7DA7 /* libPods-YYSSpec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YYSSpec.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2F0AA329BF9476AED803C39FFD62611 /* Pods-YYSSpec-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YYSSpec-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E3F7788C1BF7CCA5B5668866AD55CE8D /* libYYSNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYYSNetworking.a; path = libYYSNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3F7788C1BF7CCA5B5668866AD55CE8D /* libYYSNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYYSNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE22F08E419E6297E94B0020EC665AE0 /* YYSNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYSNetworking-dummy.m"; sourceTree = "<group>"; };
 		F1C23A65F7B38435A89A91EA71680C48 /* Pods-YYSSpec-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YYSSpec-acknowledgements.plist"; sourceTree = "<group>"; };
-		F9091666F586CC3B20FFC593BBBDD3C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F9091666F586CC3B20FFC593BBBDD3C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +87,8 @@
 		412A9B44A36F8F95ED993BA567A0DD8E /* YYSNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				5D8B16C33C8B7767B5D68CCA8EB72469 /* YYSTools.h */,
-				7F304CAAD1FF56BF6F38FA926126F84D /* YYSTools.m */,
+				5300299E24D069B6005FFC1F /* YYSTools.h */,
+				5300299F24D069B6005FFC1F /* YYSTools.m */,
 				4AE8C2A3519D8CE5E880ECEE137988A3 /* Pod */,
 				178CA8384A69863ED31C3620ECD09345 /* Support Files */,
 			);
@@ -156,6 +156,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				530029A024D069B6005FFC1F /* YYSTools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +164,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDDF0B10237995C470C7F6DD8708CAF1 /* YYSTools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +219,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -238,7 +239,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				880AF18BA833A5879F428CAE4727E966 /* YYSNetworking-dummy.m in Sources */,
-				1A80EEC3BB20453FD75EB77E714E0EB9 /* YYSTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0B8B0973EC94523EB87508DED4114EC /* Pods-YYSSpec-dummy.m in Sources */,
+				530029A124D069B6005FFC1F /* YYSTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,8 +449,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
