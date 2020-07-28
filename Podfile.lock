@@ -1,0 +1,16 @@
+PODS:
+  - YYSNetworking (0.1.0)
+
+DEPENDENCIES:
+  - YYSNetworking (from `Lib/YYSNetworking`)
+
+EXTERNAL SOURCES:
+  YYSNetworking:
+    :path: Lib/YYSNetworking
+
+SPEC CHECKSUMS:
+  YYSNetworking: d0ee6423edc8f719fb0251d5e7afce223ed73c7b
+
+PODFILE CHECKSUM: 923981a786ce7919245cc0955626101f6938f173
+
+COCOAPODS: 1.6.1
